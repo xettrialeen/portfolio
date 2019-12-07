@@ -63,6 +63,11 @@
 /*  DESKTOP VIEW */
 
 @media only screen and (min-width: 800px) {
+    @font-face {
+        font-family: "lato";
+        src: url("/fonts/Lato-Black.ttf");
+    }
+    
 
     body {
         background-image: linear-gradient(-180deg, #ffbd6f, #ff676c);
@@ -210,10 +215,11 @@
     }
     /* starting navbar */
     .navbar ul li span {
-        font-family: lato;
+        font-family:lato;
         color: #2e2c2c;
         font-size: 22px;
         transition: 0.3s ease;
+        /* font-weight: bold; */
         cursor: pointer;
     }
     .navbar span:hover {
@@ -284,6 +290,15 @@
     }
     /* mobile responsive menu bar */
 
+
+    /* i am goig to hide scroll on mobile view because it sucks */
+
+    .scrollfirst{
+        overflow: hidden;
+    }
+    . overflowfirst{
+        overflow: hidden;
+    }
 /*  startING OF MENU BAR NAV-BAR*/
 
 
