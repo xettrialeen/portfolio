@@ -1,0 +1,91 @@
+/*  DESKTOP VIEW */
+
+@media only screen and (min-width: 800px) {
+    /* starting content */
+    /* starting about-content */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: lato;
+    }
+    p {
+        font-family: karla;
+    }
+    .second {
+        background-color: #ffffff;
+        padding: 1px;
+        width: 100%;
+        flex-shrink: 2;
+        border-radius: 8px;
+        position: relative;
+        /* height: 100vh; */
+        top: -10px;
+        left: -20px;
+        box-shadow: 0px 0px 8px 0px #a8a8a8;
+    }
+    .project-content {
+        margin: 15px;
+        background-color: aqua;
+        /* height: 100vh; */
+        display: flex;
+        flex-flow: column;
+    }
+    .project-title {
+        margin: 20px;
+    }
+    .project-title h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .project-body {
+        display: flex;
+        flex-flow: column;
+        margin: 10px;
+        height: auto;
+        background-color: rgb(113, 113, 223);
+    }
+    .project-ecommerce {
+        margin: 5px;
+        background-color: chartreuse;
+    }
+    .ecommerce-title {
+        margin: 15px;
+        background-color: rgb(235, 74, 181);
+    }
+    .ecommerce-title h1 {
+        font-size: 25px;
+    }
+    .swiper-container {
+        background-color: #ffffff;
+        margin: 15px;
+    }
+    .swiper-wrapper {
+        display: flex;
+        flex-flow: row;
+        margin: 10px;
+        background-color: darkred;
+        justify-content: center;
+    }
+}
+
+
+/* Mobile View */
+
+@media only screen and (max-width: 800px) {
+    /* starting about-content */
+    .second {
+        background-color: #ffffff;
+        padding: 1px;
+        width: 100%;
+        flex-shrink: 2;
+        border-radius: 8px;
+        /* position: relative;
+        /* height: 100vh; */
+        /* top: -10px;
+        left: -20px; */
+        box-shadow: 0px 0px 8px 0px #a8a8a8;
+    }
+}

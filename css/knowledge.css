@@ -1,0 +1,440 @@
+/* fonts */
+
+@font-face {
+    font-family: "karla";
+    src: url("/fonts/Karla-Regular.ttf");
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("/fonts/Lato-Black.ttf");
+}
+
+
+/*  DESKTOP VIEW */
+
+@media only screen and (min-width: 800px) {
+    /* scrollbar */
+    .scrollbar {
+        overflow-y: scroll;
+    }
+    .force-overflow {
+        height: 120vh;
+    }
+    /*
+ *  STYLE 1
+ */
+    #style-1::-webkit-scrollbar-track {
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+        border-radius: 50px;
+        background-color: #ffffff;
+    }
+    #style-1::-webkit-scrollbar {
+        width: 9px;
+        background-color: #fa3636;
+        border-radius: 50px;
+    }
+    #style-1::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        /* -webkit-box-shadow: inset 0 0 6px rgba(255, 47, 47, 0.3); */
+        background-color: #ffd2d2;
+    }
+    /* starting content */
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: lato;
+        font-weight: bolder;
+    }
+    p {
+        font-family: karla;
+    }
+    .first {
+        background-color: #ffffff;
+        padding: 1px;
+        width: 100%;
+        flex-shrink: 2;
+        border-radius: 8px;
+        position: relative;
+        /* height: 100vh; */
+        top: -10px;
+        left: -20px;
+        box-shadow: 0px 0px 8px 0px #a8a8a8;
+    }
+    /* starting about-content */
+    .knowledge-content {
+        margin: 15px;
+        display: flex;
+        flex-flow: column;
+        /* background-color: aqua; */
+        ]
+    }
+    .knowledge-title {
+        margin: 20px;
+    }
+    .knowledge-title h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .knowledge-frontend {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        /* background-color: rgb(253, 253, 10); */
+        height: auto;
+    }
+    .knowledge-frontend-title {
+        margin: 15px;
+    }
+    .knowledge-frontend-title h1 {
+        font-size: 25px;
+    }
+    .knowledge-frontend-body {
+        margin: 20px;
+        background-color: #ffffff;
+        margin-top: 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .body-inside-resizer {
+        margin: 50px;
+    }
+    .knowledge-progress {
+        display: flex;
+        flex-flow: row;
+        margin: 30px;
+        transition: 0.5s ease;
+        /* background-color: rgb(252, 80, 80); */
+    }
+    .knowledge-progress:hover {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .progress-h3 {
+        /* background-color: aqua; */
+        display: flex;
+        flex: 2;
+        /* flex-basis: 5; */
+    }
+    .knowledge-progress h3 {
+        /* padding: 50px; */
+        margin: 15px;
+        text-align: center;
+    }
+    .progress-span {
+        /* background-color: blueviolet; */
+        display: flex;
+        flex: 8;
+    }
+    .knowledge-progress span {
+        margin: 10px;
+        background-image: linear-gradient(-90deg, #ffbd6f, #ff676c);
+        flex: 1;
+        border-radius: 20px;
+    }
+    .knowledge-progress span h5 {
+        text-align: end;
+        position: relative;
+        right: 50px;
+        top: 5px;
+        font-family: karla;
+        font-size: 18px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+    /* front end has finished */
+    /* know starting backednd */
+    /*  ---------------------------------------------------------
+    -----------------------------------------------------------------
+    -------------------------------------------------------------------------
+    ---------------------------------------------------------------------------
+    -----------------------------------------------------------------------
+    --------------------------------------------------------*/
+    /* ending backend */
+    .knowledge-backend {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        /* background-color: rgb(253, 253, 10); */
+        height: auto;
+    }
+    .knowledge-backend-title {
+        margin: 15px;
+    }
+    .knowledge-backend-title h1 {
+        font-size: 25px;
+    }
+    .knowledge-backend-body {
+        margin: 20px;
+        background-color: #ffffff;
+        margin-top: 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .body-inside-resizer-backend {
+        margin: 50px;
+    }
+    .knowledge-progress-backend {
+        display: flex;
+        flex-flow: row;
+        margin: 30px;
+        transition: 0.5s ease;
+        /* background-color: rgb(252, 80, 80); */
+    }
+    .knowledge-progress-backend:hover {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .progress-h3-backend {
+        /* background-color: aqua; */
+        display: flex;
+        flex: 2;
+        /* flex-basis: 5; */
+    }
+    .knowledge-progress-backend h3 {
+        /* padding: 50px; */
+        margin: 15px;
+        text-align: center;
+    }
+    .progress-span-backend {
+        /* background-color: blueviolet; */
+        display: flex;
+        flex: 8;
+    }
+    .knowledge-progress-backend span {
+        margin: 10px;
+        background-image: linear-gradient(-90deg, #ffbd6f, #ff676c);
+        flex: 1;
+        border-radius: 20px;
+    }
+    .knowledge-progress-backend span h5 {
+        text-align: end;
+        position: relative;
+        right: 50px;
+        top: 5px;
+        font-family: karla;
+        font-size: 18px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+}
+
+
+/* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* /********************************************************************************************************************
+**************************************************************************************************
+**************************************************************************
+******************************************************************************************
+***************************************
+********************************************************************************* */
+
+
+/* Mobile View */
+
+@media only screen and (max-width: 800px) {
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: lato;
+        font-weight: bolder;
+    }
+    p {
+        font-family: karla;
+    }
+    /* starting knowledge-content */
+    .first {
+        background-color: #ffffff;
+        padding: 1px;
+        width: 100%;
+        flex-shrink: 2;
+        border-radius: 8px;
+        height: auto;
+        /* position: relative; */
+        /* height: 100vh; */
+        /* top: -10px;
+        left: -20px; */
+        box-shadow: 0px 0px 8px 0px #a8a8a8;
+    }
+    .knowledge-content {
+        margin: 15px;
+        display: flex;
+        flex-flow: column;
+        /* background-color: aqua; */
+        display: flex;
+    }
+    .knowledge-title {
+        margin: 20px;
+    }
+    .knowledge-title h1 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    .knowledge-frontend {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        /* background-color: rgb(253, 253, 10); */
+        height: auto;
+    }
+    .knowledge-frontend-title {
+        margin: 15px;
+    }
+    .knowledge-frontend-title h1 {
+        font-size: 25px;
+    }
+    .knowledge-frontend-body {
+        margin: 20px;
+        background-color: #ffffff;
+        margin-top: 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .body-inside-resizer {
+        margin: 10px;
+    }
+    .knowledge-progress {
+        display: flex;
+        flex-flow: row;
+        margin: 30px;
+        transition: 0.5s ease;
+        /* background-color: rgb(252, 80, 80); */
+    }
+    .knowledge-progress:hover {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .progress-h3 {
+        /* background-color: aqua; */
+        display: flex;
+        flex: 2;
+        /* flex-basis: 5; */
+    }
+    .knowledge-progress h3 {
+        /* padding: 50px; */
+        margin: 2px;
+        text-align: center;
+    }
+    .progress-span {
+        /* background-color: blueviolet; */
+        display: flex;
+        flex: 8;
+    }
+    .knowledge-progress span {
+        margin: 10px;
+        background-image: linear-gradient(-90deg, #ffbd6f, #ff676c);
+        flex: 1;
+        border-radius: 20px;
+    }
+    .knowledge-progress span h5 {
+        text-align: end;
+        position: relative;
+        top: 0px;
+        font-family: karla;
+        font-size: 18px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+    /* front end has finished */
+    /* know starting backednd */
+    /*  ---------------------------------------------------------
+    -----------------------------------------------------------------
+    -------------------------------------------------------------------------
+    ---------------------------------------------------------------------------
+    -----------------------------------------------------------------------
+    --------------------------------------------------------*/
+    /* ending backend */
+    .knowledge-backend {
+        display: flex;
+        flex-flow: column;
+        margin-top: 20px;
+        /* background-color: rgb(253, 253, 10); */
+        height: auto;
+    }
+    .knowledge-backend-title {
+        margin: 15px;
+    }
+    .knowledge-backend-title h1 {
+        font-size: 25px;
+    }
+    .knowledge-backend-body {
+        margin: 20px;
+        background-color: #ffffff;
+        margin-top: 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .body-inside-resizer-backend {
+        margin: 10px;
+    }
+    .knowledge-progress-backend {
+        display: flex;
+        flex-flow: row;
+        margin: 30px;
+        transition: 0.5s ease;
+        /* background-color: rgb(252, 80, 80); */
+    }
+    .knowledge-progress-backend:hover {
+        background-color: #ffffff;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+    }
+    .progress-h3-backend {
+        /* background-color: aqua; */
+        display: flex;
+        flex: 1;
+        /* flex-basis: 5; */
+    }
+    .knowledge-progress-backend h3 {
+        /* padding: 50px; */
+        margin: 2px;
+        text-align: center;
+    }
+    .progress-span-backend {
+        /* background-color: blueviolet; */
+        display: flex;
+        flex: 8;
+    }
+    .knowledge-progress-backend span {
+        margin: 10px;
+        background-image: linear-gradient(-90deg, #ffbd6f, #ff676c);
+        flex: 1;
+        border-radius: 20px;
+    }
+    .knowledge-progress-backend span h5 {
+        text-align: end;
+        position: relative;
+        /* right: 50px; */
+        top: px;
+        font-family: karla;
+        font-size: 18px;
+        font-weight: 100;
+        color: #ffffff;
+    }
+}
