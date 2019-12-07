@@ -1,5 +1,7 @@
 /*  DESKTOP VIEW */
 
+
+
 @media only screen and (min-width: 800px) {
     /* starting content */
     /* starting about-content */
@@ -27,8 +29,9 @@
     }
     .project-content {
         margin: 15px;
-        background-color: aqua;
+        /* background-color: aqua; */
         /* height: 100vh; */
+        height: auto;
         display: flex;
         flex-flow: column;
     }
@@ -45,29 +48,64 @@
         flex-flow: column;
         margin: 10px;
         height: auto;
-        background-color: rgb(113, 113, 223);
+        /* background-color: rgb(113, 113, 223); */
     }
     .project-ecommerce {
         margin: 5px;
-        background-color: chartreuse;
+        /* background-color: chartreuse; */
     }
     .ecommerce-title {
         margin: 15px;
-        background-color: rgb(235, 74, 181);
+        /* background-color: rgb(235, 74, 181); */
     }
     .ecommerce-title h1 {
         font-size: 25px;
     }
     .swiper-container {
+        margin: 20px;
+        display: flex;
+      /* width: 100%; */
         background-color: #ffffff;
-        margin: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px 0px #c4c4c4;
+       
+        
     }
     .swiper-wrapper {
-        display: flex;
-        flex-flow: row;
-        margin: 10px;
-        background-color: darkred;
-        justify-content: center;
+        display: grid;
+       grid-template-columns:1fr 1fr 1fr ;
+       grid-gap: 10px;
+        /* flex-flow: row; */
+        margin: 20px;
+      
+        width: 100%;
+      
+        /* background-color: darkred; */
+              
+
+        /* justify-content: center; */
+    }
+    .swiper-slide{
+        padding: 10px;
+        /*margin: 20px;
+        */height: 300px;
+        border: none;
+        background-color: rgb(231, 229, 229);
+        border-radius:10px ;
+        -webkit-border-radius:10px ;
+        -moz-border-radius:10px ;
+        -ms-border-radius:10px ;
+        -o-border-radius:10px ;
+        transition: all 0.4s ease-in-out ;
+        -webkit-transition: all 0.4s ease-in-out ;
+        -moz-transition: all 0.4s ease-in-out ;
+        -ms-transition: all 0.4s ease-in-out ;
+        -o-transition: all 0.4s ease-in-out ;
+}
+    .swiper-slide:hover{
+        box-shadow: 0px 0px 8px 0px #b6b5b5;
+        margin: -2px;
+
     }
 }
 
@@ -81,11 +119,11 @@
         padding: 1px;
         width: 100%;
         flex-shrink: 2;
-        border-radius: 8px;
+        /* border-radius: 8px; */
         /* position: relative;
         /* height: 100vh; */
         /* top: -10px;
         left: -20px; */
-        box-shadow: 0px 0px 8px 0px #a8a8a8;
+        /* box-shadow: 0px 0px 8px 0px #a8a8a8; */
     }
 }
