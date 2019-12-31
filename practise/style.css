@@ -1,0 +1,528 @@
+
+/* Laptop View */
+@media only screen and (max-width: 1075px) {
+
+
+    .container-box{
+        margin: 20px;
+        margin-top: 35px;
+        margin-left: 60px;
+        margin-right: 60px;
+        display: flex;
+        flex-flow: row;
+        height: auto;
+        background-color: #ffffff;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+      }
+      
+      .container-box-sub1{
+          
+          flex-flow: column;
+          flex-grow: 2;
+      
+        
+      }
+      .sub1-titles{
+          padding: 20px;
+        
+          text-align: center;
+        
+       
+      }
+      
+      
+      .sub1-titles h1{
+          font-family: gilory_heavy;
+          font-size: 60px;
+          color: #5A5D61;
+      }
+      .titles-pargraph h3{
+          font-family: karla;
+          font-size: 25px;
+          font-weight: 200;
+          letter-spacing: 2px;
+          color: #5A5D61;
+      }
+      
+      /* image */
+      .sub1-image{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+       
+          margin-top: 20px;
+      }
+      .sub1-image img{
+          width: 100%;
+       
+          height: auto;
+         
+      }
+      
+      
+      
+      /* end of container left side */
+      /* starting container right side which is signup ;) */
+      
+      .container-box-sub2{
+          display: flex;
+          flex-flow: column;
+          flex-grow: 2;
+      }
+      .sub2-titles{
+          padding-top: 50px;
+          padding-left: 80px; 
+          padding-right: 80px;  
+          margin-top: -35px;
+        
+      
+      }
+      
+      .titles-head2{
+          display: flex;
+          flex-flow: row;
+          margin: 10px;
+      
+        justify-content: center;
+      }
+      .titles-head2 h1{
+          text-align: center;
+          font-family: gilory_heavy;
+          font-size: 45px;
+          color: #5A5D61;
+      }
+      .titles-head2 img{
+          width: 30px;
+         
+          margin-left: 10px;
+      }
+      .titles-pargraph2{
+         text-align: center;
+      }
+      .titles-pargraph2 h3{
+          font-family: karla;
+          font-weight: 200;
+          font-size: 20px;
+          color: #707070;
+      }
+      
+      
+      .sub2-signup{
+         /* display: flex;
+         flex-flow:column ; */
+         
+         
+         background-color: #F2F7FD;
+         margin-left:  60px;
+         margin-right: 60px;
+         margin-top: 30px;
+         box-shadow:  0px 2px 7px #D1D6DB;
+         border-radius:12px ;
+         -webkit-border-radius:12px ;
+         -moz-border-radius:12px ;
+         -ms-border-radius:12px ;
+         -o-border-radius:12px ;
+        
+      }
+      form{
+          padding: 20px;
+          display: flex;
+          flex-flow: column;
+      
+         
+        
+         
+      }
+      .codeit-form-inside{
+          margin:auto;
+          margin-top: 25px;
+        
+      }
+      
+      /* !starting form. Note:- i have given div class to every input */
+      .codeit-name{
+         margin:auto;
+         margin-bottom: 12px;
+         
+      }
+      /* this is username div */
+      .codeit-name input{
+          height: 55px;
+          width: 250px;
+          border: none;
+          border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          -o-border-radius: 12px;
+          box-shadow:  0px 2px 7px #D1D6DB;
+          color: #707070;
+      }
+      .space{
+          padding-left: 20px;
+          padding-right: 20px;
+          font-family: karla;
+          font-size: 18px;
+         
+      }
+      
+      
+      .space textarea:focus, input:focus    {
+          color: #707070;
+         
+          font-family: gilory_bold;
+      }
+      
+      .space input, select, textarea input:focus::-webkit-input-placeholder{
+          color: #707070;
+      }
+      /* for placeholder */
+      
+      .codeit-name input:focus::-webkit-input-placeholder {
+          color: #707070;
+      }
+      
+      
+      /*?End of username div */
+      /*! starting mobile number Div */
+      
+      
+      .codeit-country{
+          margin:auto;
+          margin-bottom: 12px;
+         
+          
+       }
+       .codeit-country input{
+          height: 55px;
+          width: 185px;
+          border: none;
+          border-radius: 0px 12px 12px 0px;
+          -webkit-border-radius: 0px 12px 12px 0px;
+          -moz-border-radius: 0px 12px 12px 0px;
+          -ms-border-radius: 0px 12px 12px 0px;
+          -o-border-radius: 0px 12px 12px 0px;
+          box-shadow:  0px 2px 7px #D1D6DB;
+          color: #707070;
+          
+      }
+      .space1{
+          
+          font-family: karla;
+          font-size: 18px;
+          padding-left: 20px;
+          padding-right: 20px;
+      }
+      
+      .space1 textarea:focus, input:focus    {
+          color: #707070;
+          
+          font-family: gilory_bold;
+      }
+      
+      .space1 input, select, textarea input:focus::-webkit-input-placeholder{
+          color: #707070;
+      }
+      /* for placeholder */
+      
+      .codeit-country input:focus::-webkit-input-placeholder {
+          color: #707070;
+      }
+      .codeit-country select{
+          height: 55px;
+          width: 60px;
+          border: none;
+          border-radius: 12px 0px 0px 12px;
+          -webkit-border-radius: 12px 0px 0px 12px;
+          -moz-border-radius: 12px 0px 0px 12px;
+          -ms-border-radius: 12px 0px 0px 12px;
+          -o-border-radius: 12px 0px 0px 12px;
+          box-shadow:  0px 2px 7px #D1D6DB;
+          color: #707070;
+          font-family: karla;
+          padding-left: 2px;
+          padding-right: 2px;
+          font-size: 16px;
+      }
+      
+      
+      
+      
+      
+      
+      /*? end of mobile number div------------------------------------------------------
+      --------------------------------------------------------------------------------
+      -----------------------------------------------------------------------------
+      ----------------------------------------------------------------
+      ------------------------------------ */
+      
+      
+      /* !starting codeit-password */
+      
+      
+      .codeit-password{
+          margin:auto;
+          margin-bottom: 12px;
+      
+      
+      }
+      .codeit-password input{
+          height: 55px;
+          width: 250px;
+          border: none;
+          border-radius: 12px;
+          -webkit-border-radius: 12px;
+          -moz-border-radius: 12px;
+          -ms-border-radius: 12px;
+          -o-border-radius: 12px;
+          box-shadow:  0px 2px 7px #D1D6DB;
+          color: #707070;
+      }
+      
+      .space3{
+          padding-left: 20px;
+          padding-right: 20px;
+          font-family: karla;
+          font-size: 18px;
+      }
+      
+      .space3 textarea:focus, input:focus    {
+          color: #707070;
+          
+          font-family: gilory_bold;
+      }
+      
+      .space3 input, select, textarea input:focus::-webkit-input-placeholder{
+          color: #707070;
+      }
+      /* for placeholder */
+      
+      .codeit-password input:focus::-webkit-input-placeholder {
+          color: #707070;
+      }
+       /*? end of code it password ---------------------------------------------------
+       -------------------------------------------------------------------------
+       ------------------------------------------------------------------------------
+       ---------------------------------------------------------------- */
+      
+      
+       /*! starting Signup button */
+      
+      
+       .signup{
+          margin:auto;
+          margin-bottom: 0px;
+         
+       }
+       .signup button{
+          height: 45px;
+          width: 230px;
+          border: none;
+          border-radius: 50px;
+          -webkit-border-radius: 50px;
+          -moz-border-radius: 50px;
+          -ms-border-radius: 50px;
+          -o-border-radius: 50px;
+          box-shadow:  0px 2px 7px #D1D6DB;
+          margin: 20px;
+          background: linear-gradient( 90deg,#FEC371,#FE786D);
+      
+         
+      }
+      .signup h3{
+          font-size: 30px;
+          font-family: gilory_bold;
+          text-align: center;
+          font-weight: bold;
+          color: #ffffff;
+          cursor: pointer;
+      }
+       /*? End of signup button----------------------------------------------------
+       ----------------------------------------------------------------------------------
+       ---------------------------------------------------------------------------------------
+       -----------------------------------------------------------------------
+        */
+      
+      /* !starting login and forget link */
+      
+      .login{
+          margin-left:  90px;
+          margin-right: 90px;
+          margin-top: -30px;
+         
+      
+        
+      }
+      .codeit-link{
+         
+         display: flex;
+         flex-flow: row;
+          padding-bottom:45px;
+         
+         
+      }
+      .codeit-login{
+          flex-grow: 1;
+          /* background-color: cyan; */
+          text-align: center;
+          margin: 5px;
+          
+      }
+      .codeit-login a{
+          text-decoration: none;
+          color:#5A5D61 ;
+          font-family: gilory_bold;
+          font-size: 14px;
+      }
+      .codeit-login a:hover{
+          color:rgb(108, 110, 112) ;
+      }
+      .codeit-forgot{
+          flex-grow: 1;
+          margin: 5px;
+          
+          /* background-color: crimson; */
+          text-align: center;
+        
+      }
+      .codeit-forgot a{
+          text-decoration: none;
+          color:#5A5D61 ;
+          font-family: gilory_bold;
+          font-size: 14px;
+      }
+      .codeit-forgot a:hover{
+          color:rgb(108, 110, 112) ;
+      }
+         /*? End of Login----------------------------------------------------
+       ----------------------------------------------------------------------------------
+       ---------------------------------------------------------------------------------------
+       -----------------------------------------------------------------------
+        */
+      
+      
+        /* !starting tems and conditions */
+        .terms-condition{
+         
+          
+        }
+        .terms-condition h3{
+            text-align: center;
+            margin: 20px;
+            font-family: karla;
+            font-weight: lighter;
+            color:#5A5D61 ;
+            
+        }
+        .terms-condition b{
+           
+        }
+        .terms-condition b a{
+            text-decoration: none;
+            color:#5A5D61 ;
+            font-family: gilory_bold;
+            font-weight: bolder;
+        }
+      
+      
+        /* ? end of terms and conditions */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet View */
+@media only screen and (max-width:960px) {
+  
+    .container-box{
+        margin: 20px;
+        margin-top: 35px;
+        margin-left: 60px;
+        margin-right: 60px;
+        display: flex;
+        flex-flow: column;
+        height: auto;
+        background-color: #b48686;
+        border-radius: 18px;
+        -webkit-border-radius: 18px;
+        -moz-border-radius: 18px;
+        -ms-border-radius: 18px;
+        -o-border-radius: 18px;
+      }
+
+
+      
+.container-box-sub1{
+    display:none;
+    flex-flow: column;
+    flex-grow: 2;
+
+  
+}
+.sub1-titles{
+    padding: 20px;
+  
+    text-align: center;
+  
+ 
+}
+
+
+.sub1-titles h1{
+    font-family: gilory_heavy;
+    font-size: 80px;
+    color: #5A5D61;
+}
+.titles-pargraph h3{
+    font-family: karla;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #5A5D61;
+}
+
+
+
+
+
+
+
+      .sub1-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+      .sub1-image img{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .container-box-sub2{
+        display: flex;
+        flex-flow: column;
+        flex-grow: 2;
+    }
+
+}
